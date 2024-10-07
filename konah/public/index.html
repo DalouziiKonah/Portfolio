@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Grey+Qo&display=swap" rel="stylesheet">
+    <title>SFS School </title>
+</head>
+
+<body  data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" tabindex="0">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3 sticky-top">
+        <div class="container-fluid">
+            <a href="index.html"><img src="images/logo1.png" alt="school logo" class="rounded-circle ms-2" width="40" height="40"></a>
+            <a class="navbar-brand text-uppercase" href="index.html">SFS Hr. Secondary School</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#facilities">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#management">Management</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="2ndpage.html#admissions">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="2ndpage.html">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-light ms-lg-3" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">More</button>
+            </div>
+        </div>
+    </nav>
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-start bg-primary text-white" data-bs-scroll="true" tabindex="-1"
+        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasWithBothOptionsLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-unstyled">
+                <li><a href="index.html" class="text-white text-decoration-none d-block m-2 p-2">Home</a></li>
+                <li><a href="#" class="text-white text-decoration-none d-block m-2 p-2">Alumni</a></li>
+                <li><a href="#" class="text-white text-decoration-none d-block m-2 p-2">School Blog</a></li>
+                <li><a href="studentsPortal.html" class="text-white text-decoration-none d-block m-2 p-2">Students Portal</a></li>
+                <li><a href="teachersPortal.html" class="text-white text-decoration-none d-block m-2 p-2">Teachers Portal</a></li>
+                <li><a href="guardian.html" class="text-white text-decoration-none d-block m-2 p-2">Parent Log in</a></li>
+                <li><a href="schoolForum.html" class="text-white text-decoration-none d-block m-2 p-2">School Forum</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <!--carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner col-lg-6 text-lg-start text-center  mb-lg-0">
+            <div class="carousel-item active">
+                <img src="https://elements-resized.envatousercontent.com/envato-shoebox/9b19/586c-71ef-4a88-bbf7-3a8ee43c6c5b/DSC_2221.jpg?w=800&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=945549731c22d9fe1b5a4418321f6c5c08ccc86c98d067926cddb5c7d68035f0"
+                    class="d-block w-80" alt="camera">
+            </div>
+            <div class="carousel-item">
+                <img src="https://elements-resized.envatousercontent.com/envato-shoebox/b3a0/fa81-4dfb-4ac9-aed3-3538398fc3c8/062721%20(8).jpg?w=800&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=b52633655a125a6f1cfa065eaf80223d6b9bb5b06be6115cf630cdf9fd34eb82"
+                    class="d-block w-100" alt="library">
+            </div>
+            <div class="carousel-item">
+                <img src="https://elements-resized.envatousercontent.com/envato-shoebox/79fd/d424-670d-4668-8ecc-4c87d34f4379/A7303829_001.jpg?w=800&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=899dbd41c784613d814b3c95f2c0a2dfd796f67a832fcf29b0e0b96395b0854f"
+                    class="d-block w-100" alt="audience">
+            </div>
+            <div class="carousel-caption d-md-block position-absolute top-50 translate-middle-y p-3 text-start ms-5 ms-3">
+                <h1 class="welcome-text fw-bold fs-3 fs-md-1 gleaming-text">
+                    Welcome to SFS <br>
+                    Hr.Secondary School
+                </h1>
+                <p class="p1 fs-6 fs-md-4">Your Journey to Excellence Begins Here</p>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <!--chat-bot-->
+    
+    <!-- Hero Section -->
+    <header class="text-white text-center py-5 bg-gradient-cards">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-lg-start text-center">
+                    <img src="images/logo1.1.png" class="img-fluid rounded-3 border border-5 w-75 border-light"
+                        alt="Hero Image">
+                </div>
+                <div class="col-lg-6 text-lg-start text-center">
+                    <h2 class="fw-bold">
+                        SFS Hr.Secondary School Daili Village Kangpokpi Manipur
+                    </h2>
+                    <p class="lead fw-bold">To light up the world.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<main>
+    <!-- About Us Section -->
+    <section class="px-5 bg-primary-subtle" id="about-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <h2>About Us</h2>
+                    <p>SFS School, Daili Village, Kangpokpi, is dedicated to fostering academic excellence and personal growth in a nurturing environment. Guided by the values of St. Francis de Sales, we aim to develop well-rounded individuals with strong moral character, leadership skills, and a commitment to community service. Our holistic approach ensures that students excel both academically and personally, preparing them to become responsible citizens and future leaders.</p></div>
+                <div class="col-lg-6 col-md-12 text-center">
+                    <img src="images/newlogo2.png" class="iimg-fluid rounded-3 border border-5 w-75 border-light"
+                        alt="School Building">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-5 " id="management">
+        <h2 class="text-center mb-4">Management Team</h2>
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="https://www.dropbox.com/scl/fi/wqro7lfwfdky6rbf2qtss/new-me.png?rlkey=5fp4nr17bxf26l05rrfrdfu41&st=h33oqn1q&raw=1" class="card-img-top" alt="Staff Image 1">
+              <div class="card-body">
+                <h5 class="card-title">John Doe</h5>
+                <p class="card-text">CEO</p>
+                <p class="card-text">John has over 20 years of experience in leadership.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="path/to/image2.jpg" class="card-img-top" alt="Staff Image 2">
+              <div class="card-body">
+                <h5 class="card-title">Jane Smith</h5>
+                <p class="card-text">CFO</p>
+                <p class="card-text">Jane is responsible for overseeing financial operations.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="path/to/image3.jpg" class="card-img-top" alt="Staff Image 3">
+              <div class="card-body">
+                <h5 class="card-title">Mike Johnson</h5>
+                <p class="card-text">CTO</p>
+                <p class="card-text">Mike leads the technology and innovation strategies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!--facilities-->
+    <section class="bg-info">
+    <div class="container" id="facilities">
+        <h2 class="text-center mb-4">Facilities</h2>
+        <div class="row">
+            <!-- School Bus -->
+            <div class="col-md-4">
+                <div class="card facility-card">
+                    <img src="https://images.pexels.com/photos/385997/pexels-photo-385997.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="School Bus" class="card-img-top facility-img img-fluid">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-3 fw-bold">School Bus</h5>
+                        <p class="card-text">Safe and comfortable transportation for our students.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Canteen -->
+            <div class="col-md-4">
+                <div class="card facility-card">
+                    <img src="https://images.pexels.com/photos/15586789/pexels-photo-15586789/free-photo-of-interior-of-university-canteen.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Canteen" class="card-img-top facility-img img-fluid">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-3 fw-bold">Canteen</h5>
+                        <p class="card-text">Delicious and nutritious meals served daily.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Hostels -->
+            <div class="col-md-4">
+                <div class="card facility-card">
+                    <img src="https://media.istockphoto.com/id/1000073424/photo/interior-of-female-dormitory-room-at-hostel-3d-rendering.jpg?b=1&s=612x612&w=0&k=20&c=1agykLFWQkRSLL7K9YVrcPVU6DP2x0MXz-jQ94IFhjI="
+                        alt="Hostels" class="card-img-top facility-img img-fluid">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-3 fw-bold">Hostels</h5>
+                        <p class="card-text">Comfortable living spaces for our boarders.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Library -->
+            <div class="col-md-4">
+                <div class="card facility-card">
+                    <img src="https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Library" class="card-img-top facility-img img-fluid">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-3 fw-bold">Library</h5>
+                        <p class="card-text">A wide range of books and study resources.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Smart Classrooms -->
+            <div class="col-md-4">
+                <div class="card facility-card">
+                    <img src="https://media.istockphoto.com/id/1328489815/photo/modern-classroom-interior.jpg?b=1&s=612x612&w=0&k=20&c=aN8kWpJVcqnDUIGI9A0I6KzVi8MC4AJj_y-v3E-AHFM="
+                        alt="Smart Classrooms" class="card-img-top facility-img img-fluid">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-3 fw-bold">Smart Classrooms</h5>
+                        <p class="card-text">Modern classrooms with interactive technology.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Computer Labs -->
+            <div class="col-md-4">
+                <div class="card facility-card">
+                    <img src="https://images.pexels.com/photos/5621934/pexels-photo-5621934.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="Computer Labs" class="card-img-top facility-img img-fluid">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mt-3 fw-bold">Computer Labs</h5>
+                        <p class="card-text">State-of-the-art facilities for tech education.</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+    <!-- Courses Offered Section -->
+    <section class="bg-light py-5" id="courses">
+        <div class="container">
+            <h2 class="text-center mb-5">Courses Offered</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://elements-resized.envatousercontent.com/envato-shoebox/2577/99f4-2425-47a6-8c88-e43c28ea1a9f/C4D_038_02.jpg?w=800&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=10e124d95647443dae35091df78cfa03c7fea82e71b148558bb5f55fa2b53fda"
+                            class="card-img-top" alt="Course 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Shape the Future with Machine Learning & AI</h5>
+                            <p class="card-text">Dive into the world of Artificial Intelligence and Machine Learning,
+                                where you'll learn to create smart systems and predictive models. This course offers
+                                hands-on experience in programming, data analysis, and algorithm development, preparing
+                                you for a cutting-edge career in one of the fastest-growing fields in tech.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <a href="2ndpage.html#AI" class="btn btn-primary btn-block">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://elements-resized.envatousercontent.com/envato-shoebox/d241/c55b-3aad-4588-8119-9e1c81b1a370/IMG_0115.jpg?w=800&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=180c5472df01b2929014cfd576b854f340fac31e9a2de07db7358ed93be6ba91"
+                            class="card-img-top" alt="Course 2">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Design the Future: Foundations in Architecture</h5>
+                            <p class="card-text">Explore the intersection of creativity and engineering in our
+                                Architecture course. Learn the fundamentals of architectural design, urban planning, and
+                                sustainable building practices. With a focus on innovation and functionality, this
+                                course equips you with the skills to shape the world around you, laying the groundwork
+                                for a successful career in architecture.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <a href="2ndpage.html#architecture" class="btn btn-primary btn-block">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="https://elements-resized.envatousercontent.com/envato-shoebox/d291/e186-6158-421c-abd4-459176a7924d/151203.jpg?w=800&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=9005c85de23fc47fe4bef1f0b8a4af8c7864384cb81bec9618727e35bc5b9d2a"
+                            class="card-img-top" alt="Course 3">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Unlock Peak Performance with Sports Science & Coaching</h5>
+                            <p class="card-text">Transform your love for sports into a profession with our Sports
+                                Science & Coaching course. Gain expert knowledge in sports physiology, training
+                                techniques, and motivational coaching, and learn how to optimize athletic performance.
+                                Whether you're aiming to coach or work in sports management, this course is your gateway
+                                to success.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <a href="2ndpage.html#sports" class="btn btn-primary btn-block">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light" id="testimonials">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Students Say</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <div class="mb-3">
+                                <img src="https://th.bing.com/th/id/OIP.CJzgvzED6fNEuADE6dK2CwHaE8?w=246&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                                    class="rounded-circle img-fluid" alt="Student 1" width="100">
+                            </div>
+                            <h5 class="card-title fw-bold">Jonh Doe | <span class="batch fw-normal fs-6">2016
+                                    batch</span></h5>
+                            <p class="card-text">"This school has provided me with excellent education and support. I am
+                                very grateful for the opportunities I've received."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <div class="mb-3">
+                                <img src="https://th.bing.com/th/id/OIP.jaCtq4eW6mFQsIuwxExPTAHaHe?w=170&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                                    class="rounded-circle img-fluid" alt="Student 2" width="100">
+                            </div>
+                            <h5 class="card-title fw-bold">Jane Doe | <span class="batch fw-normal fs-6">2016
+                                    batch</span></h5>
+                            <p class="card-text">"A fantastic learning environment with dedicated teachers and a
+                                supportive community. Highly recommend!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <div class="mb-3">
+                                <img src="http://ts4.mm.bing.net/th?id=OIP.RHK_ZybAq7W5gD_36BTiYQHaFb&pid=15.1"
+                                    class="rounded-circle img-fluid" alt="Student 3" width="100">
+                            </div>
+                            <h5 class="card-title fw-bold">Meme Uncle | <span class="batch fw-normal fs-6">2016
+                                    batch</span></h5>
+                            <p class="card-text">"The programs offered are top-notch and have helped me achieve my
+                                academic goals. Thank you, SFS School!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="principal-message py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-4 text-center">
+              <img src="images/principal.png" alt="Principal" class="img-fluid rounded-circle mb-4" style="max-width: 250px;">
+            </div>
+            <div class="col-lg-8">
+              <h2 class="mb-4">Message from the Principal</h2>
+              <p class="lead">
+                Welcome to [School Name], where we strive to foster a nurturing and challenging environment that empowers students to become lifelong learners and responsible citizens. Our school is committed to academic excellence, moral integrity, and the holistic development of every student. I am proud of our dedicated faculty and the vibrant community that we have built together. We believe in the potential of each student and are here to guide and support them on their educational journey.
+              </p>
+              <p class="font-italic">- [Principal's Name]</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 SFS Hr. Secondary School. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+          target: '.navbar',
+          offset: 50
+        });
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
