@@ -15,7 +15,8 @@ app.use(compression());
 app.use(
   express.static(__dirname + "/konah", {
     maxAge: "1d", // Cache static files for 1 day
-  })
+  }),
+  express.static(__dirname + "/public copy", { maxAge: "1d" })
 );
 
 app.get("/", (req, res) => {

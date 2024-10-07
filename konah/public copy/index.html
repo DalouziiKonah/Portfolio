@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Senior Secondary School</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <a href="index.html#home"><img src="images/logo.png" alt="school logo" class="logo" id="home" /></a>
+        <div class="marquee">
+          <div class="marquee-content">
+            <p class="motto">
+              <i>"Bloom where you are planted"&nbsp; &nbsp;"To light Up the
+                World" &nbsp;&nbsp; "To light up the world"&nbsp;&nbsp;
+                &nbsp;&nbsp;"To light Up the World"&nbsp;&nbsp;"To light Up
+                the World"&nbsp;&nbsp;"To light Up the World" &nbsp;&nbsp;
+                "Bloom where you are planted"
+              </i>
+            </p>
+          </div>
+        </div>
+        <h1>St. Francis de Sales Hr.Secondary School Daili Village</h1>
+      </div>
+    </div>
+    <button class="nav-toggle" type="button">☰</button>
+    <nav id="nav-links">
+      <ul>
+        <li class="close-button-container">
+          <button class="close-btn" type="button">✖</button>
+        </li>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="2ndpage.html#school-blog">School Blog</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="2ndpage.html#alumni">Alumni</a></li>
+        <li><a href="3rdpage.html#admissions">Admissions</a></li>
+        <li><a href="#announcements">Announcements</a></li>
+        <li><a href="#" id="contact-trigger">Contact Us</a></li>
+        <li><a href="3rdpage.html#log-in">Student Log in</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="slider-container">
+      <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="images/background.jpg" alt="img-1" />
+          </div>
+          <div class="slide">
+            <img src="images/assembly.jpg" alt="img-2" />
+          </div>
+          <div class="slide">
+            <img src="images/parents-day-2017.jpg" alt="img-3" />
+          </div>
+          <div class="slide"><img src="images/ground.jpg" alt="img-4" /></div>
+        </div>
+        <div class="indicators">
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+        </div>
+      </div>
+    </section>
+    <section id="announcements-news-section">
+      <h2 id="announcements">Announcements and News</h2>
+      <section id="announcement-announcements" class="announcement-collapsible">
+        <button class="announcement-toggle-btn" onclick="toggleAnnouncementSection('announcement-announcements')">
+          <h3>Announcements</h3>
+        </button>
+        <ul class="announcement-content">
+          <li><strong>End-of-Year Exams Schedule:</strong> Exams will take place from June 1 to June 10. Please check
+            the <a href="#">exam timetable</a> for detailed information.</li>
+          <li><strong>Parent-Teacher Conferences:</strong> Scheduled for July 15-16. Sign up for a slot <a
+              href="#">here</a>.</li>
+          <li><strong>New School Uniform Policy:</strong> Starting from the next academic year, students are required to
+            wear the new uniform. Details can be found <a href="#">here</a>.</li>
+          <li><strong>School Closure Notice:</strong> The school will be closed on July 15th August in observance of the
+            Independence Day</li>
+        </ul>
+      </section>
+      <!--prospectus-->
+      <section class="prospectus-container2">
+        <div class="prospectus-container grid-container">
+          <div class="section" id="vision-mission">
+            <h2>Vision and Mission</h2>
+            <p>Our mission is to inspire and nurture the leaders of tomorrow. We are committed to providing an inclusive
+              and stimulating learning environment that promotes academic excellence, personal growth, and a lifelong
+              love of learning.</p>
+          </div>
+
+          <div class="section" id="academic-excellence">
+            <h2>Academic Excellence</h2>
+            <p>Our academic programs are designed to challenge and engage students, fostering critical thinking and
+              problem-solving skills. We offer a broad and balanced curriculum that includes core subjects, humanities,
+              languages, creative arts, technology, and physical education.</p>
+            <div class="prospectus-gallery">
+              <img src="/images/church.jpg" alt="Meritorious Students 1">
+              <img src="/images/assembly.jpg" alt="Meritorious Students 2">
+              <img src="/images/withground.jpg" alt="Meritorious Students 3">
+            </div>
+          </div>
+
+          <div class="section" id="extracurricular-activities">
+            <h2>Extracurricular Activities</h2>
+            <p>We believe in the holistic development of our students. Our extensive extracurricular program includes
+              sports teams, clubs and societies, performing arts, and community service.</p>
+            <div class="prospectus-gallery">
+              <img src="/images/canteen.jpeg" alt="Extracurricular Activity 1">
+              <img src="/images/canteen.jpeg" alt="Extracurricular Activity 2">
+              <img src="/images/canteen.jpeg" alt="Extracurricular Activity 3">
+            </div>
+          </div>
+
+          <div class="section" id="facilities">
+            <h2>Facilities</h2>
+            <p>SFS Higher Secondary School Daili Village boasts state-of-the-art facilities to support our diverse
+              programs including modern classrooms, science laboratories, a comprehensive library, art studios, music
+              rooms, and athletic facilities.</p>
+            <div class="prospectus-gallery">
+              <img src="/images/canteen.jpeg" alt="Hostel 1">
+              <img src="/images/OIP.jpeg" alt="Hostel 2">
+              <img src="/images/ground.jpg" alt="Hostel 3">
+              <img src="/images/church.jpg" alt="Cafeteria/Canteen">
+              <img src="/images/campus.jpg" alt="School Bus">
+            </div>
+          </div>
+          <div class="section">
+            <h2>Admissions</h2>
+            <p>We invite prospective families to learn more about our vibrant community. Our admissions process is
+              designed to be transparent and inclusive.</p>
+            <a href="3rdpage.html#Admissions" class="btn">Learn More about Admissions</a>
+          </div>
+
+          <div class="section" id="parent-community-engagement">
+            <h2>Parent and Community Engagement</h2>
+            <p>At SFS Higher Secondary School Daili Village, we value strong partnerships with parents and the
+              community. We encourage active parent involvement through PTAs, regular communication, volunteer
+              opportunities, and community events.</p>
+          </div>
+        </div>
+        <section id="contact-us" class="popup">
+          <div class="popup-content">
+            <button id="close-popup" class="close-btnPop">close</button>
+            <div class="contact-icons">
+              <h2>Contact Us</h2>
+              <p>For any queries or further information, please contact our office:</p>
+              <p>Office Hours: Monday - Friday, 9 AM - 5 PM</p>
+              <ul>
+                <li><a href="tel:+911234567890" title="phone"><i class="fas fa-phone"></i>+91-1234567890</a></li>
+                <li><a href="https://wa.me/1234567890" target="blank" title="whatsapp"><i
+                      class="fab fa-whatsapp"></i></a></li>
+                <li><a href="mailto:sfsmail234@gmail.com" title="email"><i class="fas fa-envelope"></i></a></li>
+              </ul>
+              <address>
+                SFS Higher Secondary School Daili Village <br> Kangpokpi Manipur 795129.
+              </address>
+            </div>
+          </div>
+        </section>
+        <div class="school-history">
+          <section>
+            <h2 id="about-us">About Us</h2>
+            <h3>Early Years</h3>
+            <div>
+              <p>
+                0495: SFS High School was founded by the
+                <b>Missionaries of St. Francis de Sales (MSFS) </b>to bring
+                Education to Daili village and the neighbouring villages in response
+                to the growing demand for quality education in the region.
+                <br>
+                0942-3945: the school began with a small cohort of students,
+                focusing on primary education. Early years saw significant growth in
+                student enrollment and infrastructure development.<span class="read-more"><button class="read-more-btn"
+                    type="button"><b>Read More...</b></button></span><span class="more">Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Similique, voluptatum maiores! Natus sequi saepe deserunt reprehenderit
+                  nisi distinctio praesentium minima sed quaerat incidunt, obcaecati perferendis, unde libero sapiente
+                  explicabo ratione?</span>
+                <br>
+              <h3>Expansion And Development</h3>
+              <p>0809-9450: SFS expanded the infrastructure to include secondary education, adding new
+                buildings and facilities. The Curriculum was broadened to include
+                science, arts, and extracurricular activities.
+                <br>
+                2024: Introduction of the Higher Secondary section, allowing
+                students to pursue pre-university courses. This marked a significant
+                milestone, positioning SFS as a comprehensive educational
+                institution.<span class="read-more"><button class="read-more-btn" type="button"><b>Read
+                      More...</b></button></span><span class="more">Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Tempore illo quasi voluptatem voluptatibus doloribus neque dignissimos fugiat ducimus
+                  reprehenderit? Id beatae repudiandae possimus quidem sit voluptatum. Architecto, nisi quia.
+                  Ipsum!</span>
+              </p>
+              </div>
+              <h3><strong>School Gallery</strong></h3>
+              <div class="filmstrip-container">
+                <div class="filmstrip">
+                  <div class="gallery-alumni">
+                    <img src="/images/withground.jpg" alt="Image 1">
+                    <div class="overlay">
+                      <div class="text">School with ground and church</div>
+                    </div>
+                  </div>
+                  <div class="gallery-alumni">
+                    <img src="/images/front-view.jpg" alt="Image 2">
+                    <div class="overlay">
+                      <div class="text">Front view of the church</div>
+                    </div>
+                  </div>
+                  <div class="gallery-alumni">
+                    <img src="/images/church.jpg" alt="Image 3">
+                    <div class="overlay">
+                      <div class="text">Church</div>
+                    </div>
+                  </div>
+                  <div class="gallery-alumni">
+                    <img src="/images/alumni.jpg" alt="Image 4">
+                    <div class="overlay">
+                      <div class="text">alumni</div>
+                    </div>
+                  </div>
+                  <div class="gallery-alumni">
+                    <img src="/images/ground.jpg" alt="Image 5">
+                    <div class="overlay">
+                      <div class="text">Ground</div>
+                    </div>
+                  </div>
+                  <div class="gallery-alumni">
+                    <img src="/images/campus.jpg" alt="Image 6">
+                    <div class="overlay">
+                      <div class="text">Campus</div>
+                    </div>
+                  </div>
+                  <div class="gallery-alumni">
+                    <img src="/images/background.jpg" alt="Image 7">
+                    <div class="overlay">
+                      <div class="text">Graduation</div>
+                    </div>
+                  </div>
+                  <div class="gallery-alumni">
+                    <img src="/images/assembly.jpg" alt="Image 8">
+                    <div class="overlay">
+                      <div class="text">School assembly</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section>
+          <div class="info" id="principal">
+            <h2>Message from the Principal</h2>
+            <div class="principal">
+              <img src="images/principal.png" alt="principal" />
+              <figcaption>Fr. Example</figcaption>
+            </div>
+            <p>
+              SFS School under the management of <b>MSFS</b> Fathers caters to
+              educating students from different communities. SFS Higher
+              Secondary School is dedicated to providing quality education to
+              students in a supportive and nurturing environment. Lorem, ipsum
+              dolor sit amet consectetur adipisicing elit. Dolorum deleniti sint
+              id at aliquid rerum exercitationem accusantium voluptas recusandae
+              quis ipsam asperiores incidunt quia, totam quae odio perferendis,
+              doloremque tempora? Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Magni velit quos, mollitia in ipsam ex atque
+              consequatur modi consectetur vero, illo architecto sit quibusdam
+              hic corporis!<span class="read-more"><button class="read-more-btn" type="button"><b>Read
+                    More...</b></button></span><span class="more"> Iure aspernatur consequuntur tempora.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores minima cumque distinctio tempore?
+                Veritatis omnis esse sequi adipisci exercitationem nostrum. Dolorem alias consequatur sed corrupti optio
+                sint quaerat aut? Soluta?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corporis sed exercitationem laborum quasi
+                blanditiis quaerat iusto deserunt autem laboriosam veritatis temporibus, ratione sequi eaque praesentium
+                corrupti quibusdam nobis nemo?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla autem eveniet voluptatem quidem
+                molestias unde error eos commodi debitis beatae possimus cum, ullam necessitatibus, omnis, iure deserunt
+                neque cupiditate labore!.
+              </span>
+            </p>
+          </div>
+        </section>
+
+  </main>
+  <footer>
+    <div class="icons">
+      <a href="https://www.facebook.com/share/sGqZZ8CrRiM8jdHv/?mibextid=A7sQZp" target="blank" title="facebook-link"><i
+          class="fab fa-facebook"></i></a>
+      <a href="mailto:sfs123@gmail.com" title="email"><i class="fas fa-envelope" alt="email-link"></i></a>
+      <a href="https://www.instagram.com/sfs_band_party?igsh=MTgzNnFnMzBqMjQ4eA==" title="instagram"><i
+          class="fab fa-instagram" alt="instagram-link"></i></a>
+      <a href="#" title="twitter"><i class="fab fa-twitter" alt="twitter-link"></i></a>
+      <a href="index.html#home" title="home"><i class="fas fa-home" alt="homepage-link"></i></a>
+    </div>
+    <p>&copy; 2024 SFS Hr.Secondary School Daili. <strong>&copy;</strong><a href="https://dalouziikonah.github.io/Dalouzii-Konah/">Dalouzii Konah</a></p>
+  </footer>
+  <script src="scripts.js"></script>
+  <script src="login.js"></script>
+</body>
+
+</html>
