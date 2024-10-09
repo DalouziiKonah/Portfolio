@@ -14,13 +14,22 @@ app.use(compression());
 // Serve static files from the "konah" directory with caching headers
 app.use(
   express.static(__dirname + "/konah", {
-    maxAge: "1d", // Cache static files for 1 day
+    maxAge: "1d",
+  })
+);
+app.use(
+  express.static(__dirname + "/public_copy", {
+    maxAge: "1d",
   })
 );
 
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html"); // Add a slash before "index.html"
 });
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/public_copy/index.html");
+});
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}.`);
 });
