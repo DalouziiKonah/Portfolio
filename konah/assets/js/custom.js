@@ -89,5 +89,8 @@ $(document).ready(function () {
       .css({ opacity: "0" });
     $(".header-text a").addClass("animated fadeInDown").css({ opacity: "0" });
   });
+
+  AOS.init({
+    once: false,
+  });
 });
-// contact modal
