@@ -32,7 +32,6 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
 	color: #676a81;
-	background: #fff;
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
@@ -97,7 +96,6 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background: white;
     border: none;
 }
 /*@keyframes navbarColor{
@@ -113,7 +111,7 @@ nav.navbar.bootsnav.no-background {
 }*/
 nav.navbar.bootsnav {
     border-bottom: transparent;
-    box-shadow: 0 3px 15px rgba(0,0,0,.2);
+    color: black;
 }
 
 /*.navbar-brand*/
@@ -123,15 +121,21 @@ nav.navbar.bootsnav {
     font-size: 20px;
     font-weight: 600;
     padding: 33px 0px 57px;
-    text-transform: uppercase;
+    font-family: cursive;
+    font-style:oblique;
+    text-transform: capitalize;
 }
 /*.navbar-brand*/
 
+
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
-    font-size: 16px;
-    font-weight: 400;
-    text-transform:uppercase;
+    color: #000;
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:capitalize;
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
     -ms-transition: 0.3s linear; 
@@ -177,7 +181,8 @@ nav.navbar.bootsnav .navbar-toggle {
     padding: 10px;
     top: 0;
 }
-nav.navbar.bootsnav .navbar-toggle i{color: #582cf9;}
+nav.navbar.bootsnav .navbar-toggle i{color: #582cf9;
+border: none;}
 /*.navbar-toggle */
 
 
@@ -210,7 +215,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #582cf9;}
 }
 .header-text h2 {
     color: #fff;
-    font-size: 54px;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
@@ -680,13 +685,19 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .hm-foot-icon ul li>a:hover{
     color: #b636ff;
 }/*hm-foot-icon*/
+.footer-copyright{
+    background-color:  rgba(22, 27, 34, 1);
+    padding: 0;
+    width: 100%;
 
-.hm-footer-copyright p{
-    color: #888ea5;
+}
+
+.footer-copyright p{
+    color: #FFFF;
     text-transform: capitalize;
     padding: 38px 0;
 }
-.hm-footer-copyright p a {color: #888ea5;}
+.hm-footer-copyright p a {color: #0ff;}
 /*===============================
     Scroll Top
 ===============================*/

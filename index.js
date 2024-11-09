@@ -24,7 +24,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/index.html"); // Add a slash before "index.html"
+  res.sendFile(__dirname + "/index.html");
 });
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public_copy/index.html");
