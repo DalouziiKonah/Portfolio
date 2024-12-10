@@ -112,7 +112,10 @@ nav.navbar.bootsnav {
     border-bottom: transparent;
     color: black;
 }
-
+.navbar-default{
+    background-color: #999fb3 !important;
+    z-index: 10;
+}
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
